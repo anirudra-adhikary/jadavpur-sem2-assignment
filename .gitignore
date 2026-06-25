@@ -1,0 +1,2 @@
+# Ignore files with no extension (executables)
+!*.c
