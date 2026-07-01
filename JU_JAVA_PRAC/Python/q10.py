@@ -1,0 +1,7 @@
+raw = input("Enter numbers (space-separated): ")
+numbers = list(map(int, raw.split()))
+squares = list(map(lambda x: x ** 2, numbers))
+odd_squares = list(filter(lambda x: x % 2 != 0, squares))
+print(f"\nOriginal numbers : {numbers}")
+print(f"Squared          : {squares}")
+print(f"Odd squares only : {odd_squares}")

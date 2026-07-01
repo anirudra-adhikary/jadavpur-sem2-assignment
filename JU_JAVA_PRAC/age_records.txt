@@ -1,0 +1,12 @@
+Name : Anirudra Adhikary
+DOB  : 21-09-2002
+Age  : 23 years
+Exact Age : 23 years, 7 months, 22 days
+Category : young adult
+----------------------------------
+Name : Anirudra Adhikary
+DOB  : 21-09-2002
+Age  : 23 years
+Exact Age : 23 years, 9 months, 3 days
+Category : young adult
+----------------------------------
