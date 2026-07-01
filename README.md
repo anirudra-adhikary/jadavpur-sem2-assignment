@@ -1,13 +1,13 @@
 <div align="center">
 
-# 📚 Jadavpur University Semester 2 DSA Assignments
+# 📚 Jadavpur University Semester 2 Lab Assignments
 
-[![Language](https://img.shields.io/badge/Language-C-blue.svg)]()
+[![Language](https://img.shields.io/badge/Language-Multi-blue.svg)]()
 [![University](https://img.shields.io/badge/Jadavpur-University-orange.svg)]()
 [![Semester](https://img.shields.io/badge/Semester-2-success.svg)]()
 [![License](https://img.shields.io/badge/License-MIT-green.svg)]()
 
-A collection of **Data Structures & Algorithms** assignments completed as part of the **Semester 2 curriculum** at **Jadavpur University**.
+A collection of lab assignments and projects completed as part of the **MCA Semester 2 curriculum** at **Jadavpur University**.
 
 </div>
 
@@ -15,92 +15,85 @@ A collection of **Data Structures & Algorithms** assignments completed as part o
 
 ## 📖 About
 
-This repository contains implementations of fundamental **Data Structures** and **Algorithms** written in **C**.
+This repository (`ju_lab`) contains practical lab assignments and implementations for various Semester 2 subjects. 
 
-The solutions are organized according to the assignment sheet and are intended for:
+Currently, it features fundamental **Data Structures & Algorithms (DSA)**, with solutions organized according to the assignment sheets. It is intended for:
 
 - 📚 Academic reference
-- 🧠 DSA practice
-- 💻 Learning C programming
+- 🧠 Practical lab practice
+- 💻 Learning and debugging various programming languages
 - 🎯 Exam preparation
-
----
-
-## 🛠 Topics Covered
-
-- Stack
-- Queue
-- Circular Queue
-- Deque
-- Linked List
-- Doubly Linked List
-- Priority Queue
-- Searching
-- Sorting
-- Trees *(if applicable)*
-- Graphs *(if applicable)*
-- Other classical DSA problems
 
 ---
 
 ## 📂 Repository Structure
 
+Because this repository tracks the entire lab folder, subjects are divided into their respective subdirectories:
+
 ```text
 .
-├── Assignment 1/
-├── Assignment 2/
-├── Assignment 3/
-├── ...
+├── DSA/                         # Data Structures & Algorithms Lab
+│   ├── Assignment 1/
+│   ├── Assignment 2/
+│   ├── Assignment 3/
+│   └── ...
 ├── README.md
 └── .gitignore
 ```
 
-Each assignment contains:
-
-- Source code (`.c`)
+Each assignment directory contains:
+- Source code (e.g., `.c`, `.java`, `.cpp`)
 - Well-structured implementations
 - Meaningful comments where necessary
 
 ---
 
+## 🛠 Topics Covered (DSA)
+
+- Stack, Queue, Circular Queue, Deque
+- Linked List (Singly & Doubly)
+- Priority Queue
+- Searching & Sorting Algorithms
+- Trees & Graphs *(if applicable)*
+- Other classical DSA problems
+
+---
+
 ## 🚀 Compile & Run
 
-Compile any program using GCC:
+To run a specific file, first navigate to its respective folder. 
 
+**For C programs (GCC):**
 ```bash
+cd DSA/Assignment3
 gcc filename.c -o output
 ./output
 ```
 
-Example:
-
-```bash
-gcc assignment3_17.c -o assignment3_17
-./assignment3_17
-```
+*(Note: Adjust the compilation commands based on the language used in specific lab assignments. For Java files, use `javac` and `java`).*
 
 ---
 
 ## 🧰 Requirements
 
-- GCC Compiler
+- Appropriate compiler/interpreter (e.g., GCC, JDK depending on the lab)
 - Linux / Windows / macOS
-- Basic knowledge of C programming
+- Basic knowledge of programming principles
 
 ---
 
 ## 🎯 Objectives
 
-- Understand core Data Structures
-- Improve problem-solving skills
+- Understand core computer science concepts practically
+- Improve problem-solving and debugging skills
 - Practice implementation from scratch
-- Build a solid DSA foundation
+- Build a solid foundation for software development
 
 ---
 
 ## 🤝 Contributions
 
-This repository is primarily maintained for academic purposes. Suggestions and improvements are always welcome!
+This repository is primarily maintained for academic purposes. Suggestions, optimizations, and improvements are always welcome!
 
 ---
 
